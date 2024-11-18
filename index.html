@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <nav class="main-nav" role="navigation">
+        <div class="logo">
+            <img src="assets/logo.png" alt="Learning Platform Logo" width="150" height="50">
+        </div>
+        
+        <button class="menu-toggle" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="nav-links">
+            <button class="nav-btn math-btn" aria-label="Math section">Math</button>
+            <button class="nav-btn reading-btn" aria-label="Reading section">Reading</button>
+            <button class="nav-btn science-btn" aria-label="Science section">Science</button>
+            <button class="nav-btn games-btn" aria-label="Games section">Games</button>
+            <button class="nav-btn creative-btn" aria-label="Creative Corner">Creative Corner</button>
+        </div>
+        <div class="user-section">
+            <button class="login-btn">Login</button>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <section class="hero">
+            <h1>Welcome to Fun Learning! 🌟</h1>
+            <p class="hero-text">Learn, Play, and Grow with Us!</p>
+            <div class="hero-cta">
+                <button class="start-btn">Start Learning</button>
+                <button class="tour-btn">Take a Tour</button>
+            </div>
+        </section>
+
+        <section class="featured-activities" aria-labelledby="activities-heading">
+            <h2 id="activities-heading">Today's Fun Activities</h2>
+            <div class="activity-cards">
+                <div class="activity-card math" tabindex="0">
+                    <div class="card-icon">🔢</div>
+                    <h3>Math Adventure</h3>
+                    <p>Learn counting with animals!</p>
+                    <button class="card-btn">Start Playing</button>
+                </div>
+                <div class="activity-card reading" tabindex="0">
+                    <div class="card-icon">📚</div>
+                    <h3>Story Time</h3>
+                    <p>Read an interactive story!</p>
+                    <button class="card-btn">Start Reading</button>
+                </div>
+                <div class="activity-card science" tabindex="0">
+                    <div class="card-icon">🔬</div>
+                    <h3>Science Fun</h3>
+                    <p>Discover space facts!</p>
+                    <button class="card-btn">Explore Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Parent Guide</a></li>
+                    <li><a href="#">Help Center</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: help@kidslearn.com</p>
+                <p>Phone: 1-800-KIDS-FUN</p>
+            </div>
+        </div>
+        <p class="copyright">© 2024 Kids Learning Platform</p>
+    </footer>
+</body>
+</html> 
